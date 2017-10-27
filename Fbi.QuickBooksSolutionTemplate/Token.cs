@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
   class Token
   {

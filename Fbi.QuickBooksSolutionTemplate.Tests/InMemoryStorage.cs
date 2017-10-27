@@ -1,13 +1,7 @@
 ﻿using System.Collections.Generic;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
-  interface ISecureStorage
-  {
-    void Store<T>(string key, T itemToStore);
-    T Retrieve<T>(string key);
-  }
-
   class InMemoryStorage : ISecureStorage
   {
     readonly Dictionary<string, object> store = new Dictionary<string, object>();

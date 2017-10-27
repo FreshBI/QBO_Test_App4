@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using System.Net.Http.Headers;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
   class TestOAuthWorkFlow
   {

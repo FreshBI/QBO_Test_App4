@@ -5,11 +5,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
   class ResourceProviderTests
   {
-    string AccessCode = "Q0115089935454CLNmrG3BWqhI7C1Xq3dyI68c5dczGThhEKvi";
+    string AccessCode = "Q011509110325DMnXSfYQd9iT5Vfe9dNSWws3FSIzd1qFXVHvU";
 
     const string ResourceId = "193514651873324";
     const string ClientId = "Q05HpxkD3Do2oGL254UGMuiYAzkVMGiznt8GIxLRW5nYyVzvx4";

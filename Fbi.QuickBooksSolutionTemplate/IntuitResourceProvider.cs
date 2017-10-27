@@ -2,9 +2,9 @@
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
-  abstract class IntuitResourceProvider
+  public abstract class IntuitResourceProvider
   {
     private readonly HttpClient httpClient;
     private readonly IntuitAuthClient authClient;

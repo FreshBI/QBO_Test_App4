@@ -4,9 +4,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace QuickBooksIntegration.Tests
+namespace Fbi.QuickBooksSolutionTemplate
 {
-  class IntuitAuthClient
+  public class IntuitAuthClient
   {
     const string refreshTokenStorageKey = "RefreshToken";
     readonly HttpClient client;
